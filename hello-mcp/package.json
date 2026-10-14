@@ -1,0 +1,25 @@
+{
+  "name": "hello-mcp",
+  "version": "1.0.0",
+  "description": "My first Model Context Protocol (MCP) server in TypeScript",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "inspect": "../run-inspector.sh"
+  },
+  "keywords": ["mcp", "ai", "model-context-protocol"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
